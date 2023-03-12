@@ -1,0 +1,84 @@
+    <nav class="navbar is-black">
+        <div class="navbar-brand">
+          <a class="navbar-item" href="">
+            <p style="background-color: #000000; color: #34c7ae; font-size: 23px; border-radius: 2px; padding: 5px 10px; border: 1px rgb(68, 219, 187) solid;">GWEAIN</p>
+          </a>
+          <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+      
+        <div id="navbarExampleTransparentExample" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item" href="">
+              About
+            </a>
+            <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                More
+              </a>
+              <div class="navbar-dropdown is-boxed">
+                <a class="navbar-item" href="">
+                  Download Resume
+                </a>
+                <a class="navbar-item" href="">
+                  Portfolio (MyWorks)
+                </a>
+                <a class="navbar-item" href="">
+                  My Skills
+                </a>
+                <a class="navbar-item" href="">
+                  Visual Showcase
+                </a>
+                <a class="navbar-item" href="">
+                  Personal Projects
+                </a>
+              </div>
+            </div>
+          </div>
+      
+          <div class="navbar-end">
+            <div class="navbar-item">
+              <div class="field is-grouped">
+                <p class="control">
+                  <a class="bd-tw-button button" style=" border: 0; background-color: rgb(73, 207, 207); color: rgb(0, 0, 0);" target="_blank" href="">
+                    <span>
+                      SOCIALS
+                    </span>
+                  </a>
+                </p>
+                <p class="control">
+                  <a style="background-color: rgb(75, 211, 216); color: rgb(0, 0, 0);" class="button is-primary" href="">
+                    <span>CONTACT</span>
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+      <script>
+        // Get all the navbar-burger elements
+        const navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
+      
+        // Add a click event listener to each of them
+        navbarBurgers.forEach(function (el) {
+          el.addEventListener('click', function () {
+      
+            // Get the target from the "data-target" attribute
+            const target = el.dataset.target;
+            const $target = document.getElementById(target);
+      
+            // Toggle the class on both the "navbar-burger" and the "navbar-menu"
+            el.classList.toggle('is-active');
+            $target.classList.toggle('is-active');
+      
+          });
+        });
+      </script>
+
+-- Reminder Add CSS BULMA FRAMEWORK LINK tsaka JS ---
+---- Chat GPT Question kaya na solve yung Way para makuha yung functioning nav bar haha ---
