@@ -82,3 +82,5 @@
 
 -- Reminder Add CSS BULMA FRAMEWORK LINK tsaka JS ---
 ---- Chat GPT Question kaya na solve yung Way para makuha yung functioning nav bar haha ---
+
+" make this navigation bar code work when responsive, tsaka dapat mag function yung button niya kapag nasa responsive version kasi hindi ko mapindot at hindi lumalabas yung laman niya "
